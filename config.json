@@ -1,0 +1,30 @@
+{
+    "page_list_content":{
+        "url": "https://www.googleapis.com/youtube/v3/playlistItems",
+        "params": {
+            "part": "contentDetails",
+            "playlistId": "",
+            "key": "",
+            "pageToken": null
+        }
+    },
+    "video_content":{
+        "url": "https://www.googleapis.com/youtube/v3/videos",
+        "params": {
+            "part": "snippet,statistics",
+            "key": "",
+            "pageToken": null
+        }
+    },
+    "kafka":{
+        "bootstrap.servers": "",
+        "security.protocol": "sasl_ssl",
+        "sasl.mechanism": "PLAIN",
+        "sasl.username": "",
+        "sasl.password": ""
+    },
+    "schema_registry":{
+        "url": "",
+        "basic.auth.user.info": ""
+    } 
+}
